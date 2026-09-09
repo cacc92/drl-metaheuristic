@@ -2,7 +2,7 @@
 
 Companion data release (assets of release v2.0.0 of https://github.com/cacc92/drl-metaheuristic) for the article **"Towards Autonomous Bio-Inspired Optimization: Deep Reinforcement
 Learning for Adaptive Metaheuristic Orchestration"** (MDPI *Biomimetics*, manuscript
-biomimetics-4483602, revised version of the first review round).
+biomimetics-4483602).
 
 The article studies deep reinforcement learning agents (PPO) that orchestrate a portfolio of seven
 bio-inspired, population-based metaheuristics over a single shared population. This release
