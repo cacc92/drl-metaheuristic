@@ -1,11 +1,11 @@
-# Dataset, results, models and source code (release v2.0.0, revised manuscript)
+# Dataset, results, models and source code (version 2, revised manuscript)
 
-Companion data release (assets of release v2.0.0 of https://github.com/cacc92/drl-metaheuristic) for the article **"Towards Autonomous Bio-Inspired Optimization: Deep Reinforcement
+Companion data package, versioned in the public repository https://github.com/cacc92/drl-metaheuristic, for the article **"Towards Autonomous Bio-Inspired Optimization: Deep Reinforcement
 Learning for Adaptive Metaheuristic Orchestration"** (MDPI *Biomimetics*, manuscript
 biomimetics-4483602, revised version of the first review round).
 
 The article studies deep reinforcement learning agents (PPO) that orchestrate a portfolio of seven
-bio-inspired, population-based metaheuristics over a single shared population. This release
+bio-inspired, population-based metaheuristics over a single shared population. This package
 contains everything behind the tables and figures of the revised manuscript and the software that
 produced them: five-fold cross-validation on the thirty cb9 instances of the multidimensional knapsack
 problem (fifteen strategies, 600 runs per strategy), the same protocol on 65 Set Covering instances
@@ -17,7 +17,7 @@ every table and figure, and the complete source code of the research framework.
 ## What changed with respect to the first version of the deposit
 
 The first version (July 2026) reported a single split of cb9 (21 training / 6 validation / 3 test instances,
-ten seeds) with the reference values of Lai et al. (2018) only. This release replaces that study with the
+ten seeds) with the reference values of Lai et al. (2018) only. This version replaces that study with the
 cross-validated protocol of the revised article and adds: the registry of twenty evaluation seeds drawn
 once with `SystemRandom`; the three control strategies (untrained agent, repair-only baseline and
 5-MH-portfolio agent); the Set Covering domain; the reference values improved by Xu, Li and Yin (2024)
